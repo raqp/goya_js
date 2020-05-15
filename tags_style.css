@@ -1,0 +1,15 @@
+dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+dl, dd {
+    font-size: 1.1rem;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+hr {
+    height: 0;
+}

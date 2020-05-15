@@ -1,0 +1,52 @@
+.nav-bar {
+    height: 50px;
+    width: 100%;
+    background: #cccccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    height: 50px;
+    border: none;
+    background: #cccccc;
+    color: black;
+    font-size: 25px;
+}
+
+button:hover {
+    color: white;
+    background: black;
+    transition: 0.5s;
+}
+
+.nav-bar-selected-methods {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+/*Content*/
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-center {
+    width: 50%;
+    height: 622px;
+    background: #ffffff;
+    overflow: auto;
+
+}
+
+.same {
+    width: 25%;
+    height: 622px;
+    background: #999999;
+}
+
+
